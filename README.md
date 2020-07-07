@@ -1,4 +1,4 @@
 # Hello-world
-Just "hello-world" programs 
+Romdom C code for Fun...
 
 
