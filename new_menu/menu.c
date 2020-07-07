@@ -1,8 +1,10 @@
 /*
-Wildr007
-menu with loop and int return...
-*/
+  Programa: Um menu para personalizar 
+  Autor: Wilder Ribeiro *wildr
+  Descricao: Um menu com loop que retorna um int 
+  Data: 7, jun, 2020
 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -26,10 +28,9 @@ c:
         printf("[6]-Sair\n");
         scanf("%i", &opc);
     } while (aux == opc);
-
+    // verificar caso seja inserido um numero maior que o [] sair.
     if (opc > 6) //altere a condição dependendo da ultima opção...
         goto c;
 
-    if (opc != 0)
-        return opc;
+    return opc;
 }
