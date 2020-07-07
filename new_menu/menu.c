@@ -24,8 +24,7 @@ int menu()
 c:
     do
     {
-        printf("[1]-Opção...\n[2]-Opção...\n[3]-Opção...\n"); //add as opçoes...
-        printf("[6]-Sair\n");
+        printf("[1]-Opção...\n[2]-Opção...\n[3]-Opção...\n[6]-Sair\n"); //add as opçoes...
         scanf("%i", &opc);
     } while (aux == opc);
     // verificar caso seja inserido um numero maior que o [] sair.
